@@ -1,0 +1,183 @@
+.fixclear:after {
+			display: block;
+			content: "";
+			clear: both;
+		}
+		
+		.outbox {
+			width: 100%;
+			max-width: 1580px;
+			display: flex;
+		}
+		.base {
+			width: 100px;
+			position: relative;
+			top: 0;
+			left: 0;
+			background-color: #1d2531;
+		}
+		.base-top {
+			padding-top: 1px;
+		}
+		.base-top a {
+			display: block;
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			cursor: pointer;
+			margin: 20px auto;
+		}
+		.item1 {
+			background: url(../img/Item1.png) no-repeat;
+		}
+		.item2 {
+			background: url(../img/Item2.png) no-repeat;
+		}
+		.item3 {
+			background: url(../img/Item3.png) no-repeat;
+		}
+		.add-app {
+			background: url(../img/Add_App.png) no-repeat;
+		}
+		.base-bottom {
+			width: 100%;
+			position: absolute;
+			bottom: 10px;
+			display: flex;
+			justify-content: space-around;
+		}
+		.base-bottom a {
+			display: block;
+			width: 16px;
+			height: 16px;
+			cursor: pointer;	
+		}
+		.grid {
+			background: url(../img/Grid.png) no-repeat;
+		}
+		.settings {
+			background: url(../img/Settings.png) no-repeat;
+		}
+		
+		
+		.secondary {
+			position: relative;
+			width: 250px;
+			padding: 30px;
+			background-color: #222c3c;
+		}
+		.secondary ul {
+			width: 100%;
+			padding: 20px 0;
+			border-bottom: 1px solid #2a3547;
+		}
+		.secondary ul li {
+			width: 100%;
+			height: 25px;
+			margin: 15px 0;
+		}
+		.secondary ul li:last-child {
+			margin-bottom: 0;
+		}
+		.secondary ul li a:hover {
+			color: #ffffff;
+		}
+		.first-ul li a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: #a3acba;
+		}
+		.menu {
+			color: #4c5769;
+			background: url(../img/Settings.png) no-repeat 100% 50%;
+		}
+		.fifty-four {
+			color: #4c5769;
+			background: url(../img/fifty.png) no-repeat 100% 50%;
+		}
+		.second-ul li a {
+			display: block;
+			padding-left: 30px;
+			color: #b7c0cd;
+		}
+		.books {
+			background: url(../img/Book_of_Wisdom.png) no-repeat 0 50%;
+		}
+		.video {
+			background: url(../img/Video_Camera.png) no-repeat 0 50%;
+		}
+		.painting {
+			background: url(../img/Painting.png) no-repeat 0 50%;
+		}
+		.chart {
+			background: url(../img/Chart.png) no-repeat 0 50%;
+		}
+		.secondary .three-ul {
+			border-bottom: transparent;
+			padding-bottom: 80px;
+		}
+		.three-ul li a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: #a3acba;
+		}
+		.twenty-one {
+			background: url(../img/Notification.png) no-repeat 100% 50%;
+		}
+		.warning {
+			background: url(../img/Alert_Icon.png) no-repeat 100% 50%;
+		}
+		.secondary-bot {
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			padding-top: 35px;
+		}
+		.secondary-bot .money {
+			color: #ffffff;
+			font-weight: 300;
+		}
+		.secondary-bot .progress-bar {
+			width: 100%;
+			height:40px;
+			background: url(../img/Base.png) no-repeat 0 50%,
+						url(../img/Fill.png) no-repeat 0 50%;
+		}
+		
+		
+		.main {
+			flex: 1;
+			height: 2000px;
+		}
+		.head {
+			position: relative;
+			padding: 15px;
+			border-bottom: 1px solid #e6e9ec;
+		}
+		.head .logo {
+			line-height: 50px;
+			font-size: 24px;
+			text-align: left;
+		}
+		.head .user {
+			width: 140px;
+			height: 45px;
+			position: absolute;
+			top: 20px;
+			right: 10px;
+			padding-top: 5px;
+			padding-left: 60px;
+			background: url(../img/Face-Photo.png) no-repeat;
+		}
+		.head .user p {
+			float: left;
+		}
+		.head .user a {
+			display: block;
+			width: 10px;
+			height: 10px;
+			float: right;
+			background:url(../img/dropdown.png) no-repeat;
+		}
